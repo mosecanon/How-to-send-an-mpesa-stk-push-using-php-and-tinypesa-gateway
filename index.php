@@ -1,7 +1,7 @@
 <?php
 
-$phonenumber = '0741575274'; // Phone number paying
-$Account_no = '01020223246000'; // Enter account number optional
+$phonenumber = '071234567'; // Phone number paying
+$Account_no = '5689'; // Enter account number optional
 $amount = 1;
 $url = 'https://tinypesa.com/api/v1/express/initialize';
 
@@ -12,7 +12,7 @@ $data = array(
 );
 $headers = array(
     'Content-Type: application/x-www-form-urlencoded',
-    'ApiKey: UPLexi196J6' // Replace with your api key
+    'ApiKey: ' // Replace with your api key
  );
 
 $info = http_build_query($data);
